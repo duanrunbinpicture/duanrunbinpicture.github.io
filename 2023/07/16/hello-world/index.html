@@ -280,19 +280,20 @@
 
                 </div>
             
-<div id="gitmentContainer"></div>
+<div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-    owner: 'duanrunbinpicture',
-    repo: 'duanrunbinpicture.github.io',
-    oauth: {
-        client_id: 'Ov23li9SsRi1lAb6UaIh',
-        client_secret: '451fda6f8550702627826d0c4e47224ebb653563',
-    },
-});
-gitment.render('gitmentContainer');
+  id: 'location.href', // 可选。默认为 location.href
+  owner: 'duanrunbinpicture@outlook.com',
+  repo: 'duanrunbinpicture.github.io',
+  oauth: {
+    client_id: 'Ov23li9SsRi1lAb6UaIh',
+    client_secret: '451fda6f8550702627826d0c4e47224ebb653563',
+  },
+})
+gitment.render('container')
 </script>
             
 
